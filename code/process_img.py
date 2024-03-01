@@ -1,7 +1,7 @@
 from PIL import Image, ImageDraw
 image = Image.open('img/pi_img.jpg') #size 817*980
 m = 162
-n = 89
+n = 89-4
 
 width, height = image.size
 pixels = image.getdata()
