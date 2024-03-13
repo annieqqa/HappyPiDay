@@ -1,2 +1,2 @@
 # happyPiDay
-A typographic Pi Day card to surprise your teachers :))
+Generates ASCII art style Pi Day card to surprise your teachers!
