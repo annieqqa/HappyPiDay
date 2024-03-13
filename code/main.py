@@ -6,6 +6,8 @@ from docx.shared import RGBColor
 from docx.shared import Pt
 
 if __name__ == '__main__':
+    print("Start!")
+    
     dps = 14417 - 4*89
     mp.dps=14417 - 4*89 #m* n -1
     text=str(mp.pi)
@@ -29,19 +31,17 @@ if __name__ == '__main__':
         run.font.size = font_size
     
     # Add credits to the footer
-    credits = "Source code: https://github.com/annieqqa/happyPiDay\nImage source: https://www.vecteezy.com/free-vector/happy-pi-day"
+    credits = "Source code: https://github.com/annieqqa/happyPiDay\nImage: @\Audrey Seng"
     section = doc.sections[0]
     footer = section.footer
     footer_para = footer.paragraphs[0]
     footer_para.text = credits
 
-    # sections = doc.sections
-    # for section in sections:
     section.top_margin = Cm(margin)
     section.bottom_margin = Cm(margin)
     section.left_margin = Cm(margin)
     section.right_margin = Cm(margin)
 
     # Save the Word document
-    doc.save("output/HappyPiDay.docx")
+    doc.save("output/HappyPiDayOwnCard.docx")
     print("done!")
