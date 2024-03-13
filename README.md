@@ -1,4 +1,4 @@
-# happyPiDay
+# Happy Pi Day
 A program that generates ASCII art style Pi Day card to surprise your teachers!
 
 
