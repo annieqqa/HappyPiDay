@@ -23,7 +23,7 @@ def getAvgColor(im,w,h):
 def splitToGrid(image,m,n):
     hsv_image = image.convert("HSV")
     h, s, v = hsv_image.split()
-    s = s.point(lambda x: x * 1.25) 
+    s = s.point(lambda x: x * 2) 
     adjusted_hsv_image = Image.merge("HSV", (h, s, v))
     image = adjusted_hsv_image.convert("RGB")
     

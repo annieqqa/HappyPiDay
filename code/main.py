@@ -31,7 +31,7 @@ if __name__ == '__main__':
         run.font.size = font_size
     
     # Add credits to the footer
-    credits = "Source code: https://github.com/annieqqa/happyPiDay\nImage: @\Audrey Seng"
+    credits = "Code: Annie Qin https://github.com/annieqqa/happyPiDay\nImage: Audrey Seng https://www.instagram.com/artsy_wolfy/"
     section = doc.sections[0]
     footer = section.footer
     footer_para = footer.paragraphs[0]
